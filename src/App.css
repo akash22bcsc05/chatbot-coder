@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* React Select */
+
+.css-b62m3t-container{
+  width: 65%;
+}
+
+.css-1mi3hag-control{
+  width: 100%;
+}
+
+.css-sl4pg4-control{
+  width: 100% !important;
+  background: #000 !important;
+  border: 1px solid #fff !important;
+  box-shadow: none !important;
+  min-height: 42px !important;
+}
+
+.css-13cymwt-control{
+  background: #000 !important;
+  border: 1px solid #fff !important;
+  box-shadow: none !important;
+}
+
+.css-t3ipsp-control{
+  background: #000 !important;
+  border: 1px solid #fff !important;
+  box-shadow: none !important;
+}
+
+.css-1nmdiq5-menu{
+  background: #000 !important;
+  border: 1px solid #fff !important;
+  color: #fff !important;
+}
+
+.css-1dimb5e-singleValue{
+  color: #fff !important;
+}
+
+.css-166bipr-Input{
+  color: #fff !important;
+}
+
+.css-1jqq78o-placeholder{
+  color: #aaa !important;
+}
+
+.css-d7l1ni-option{
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.css-d7l1ni-option:hover{
+  background: #111 !important;
+}
+
+.css-tr4s17-option{
+  background: #111 !important;
+  color: #fff !important;
+}
+
+.css-1u9des2-indicatorSeparator{
+  background: #fff !important;
+}
+
+.css-1xc3v61-indicatorContainer{
+  color: #fff !important;
+}
+
+.css-15lsz6c-indicatorContainer{
+  color: #fff !important;
+}
+
+/* Buttons */
+
+.btnNormal{
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  outline: 0;
+  cursor: pointer;
+  background: #000;
+  transition: 0.3s;
+}
+
+.btnNormal:hover{
+  background: #111;
+}
+
+/* Markdown Styling */
+
+p{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  color: #b3b3b3;
+}
+
+p > strong{
+  font-size: 20px !important;
+  color: #fff;
+}
+
+ul{
+  padding-left: 20px;
+}
+
+ul li{
+  color: #b3b3b3;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  list-style: circle !important;
+}
+
+li strong{
+  color: #fff;
+}
+
+/* Code Blocks */
+
+pre{
+  background-color: #111 !important;
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+  overflow: auto;
+  border: 1px solid #222;
+}
+
+code{
+  color: #fff;
+}
+
+pre::-webkit-scrollbar{
+  display: none;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+::-webkit-scrollbar-track{
+  background: #030303;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #212121;
+  border-radius: 10px;
+}
