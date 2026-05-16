@@ -82,13 +82,13 @@ const App = () => {
     try {
       setResponse("")
       setLoading(true);
-
+      // console.log(import.meta.env.VITE_TOKEN)
       const response = await fetch(
         "https://openrouter.ai/api/v1/chat/completions",
         {
           method: "POST",
           headers: {
-            "Authorization": "Bearer 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",
+            "Authorization": `Bearer ${import.meta.env.VITE_TOKEN}`,
             "Content-Type": "application/json"
           },
           body: JSON.stringify({
